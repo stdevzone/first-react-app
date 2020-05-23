@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.postWrap{
+    padding: 70px 0;
+    width: 100%;
+    height:auto;
+    background-color: #1e0846;
+}
+.pt h1 {
+    color: #803aff;
+    background-color: #1e0846;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 40px;
+}
+.post_single_box {
+    width: 100%;
+    height: 300px;
+    background-color: #2a0865;
+    padding: 50px;
+    overflow: hidden;
+    margin: 6px 0;
+}
+
+.thumbnail_img {
+    float: left;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.thumbnail_img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+.post_content{
+    width: 55%;
+    height: auto;
+    float: right;
+    border-left: 1px dotted #f5477d;
+    padding-left: 15px;
+}
+.post_content h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.metabox {
+    overflow: hidden;
+}
+.metabox ul li {
+    list-style: none;
+    float: left;
+    padding: 0 4px;
+}
+.metabox ul li a {
+    color: #f5477d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button.viwe_more {
+    float: right;
+    background: #df1f5b6b;
+    border: none;
+    padding: 3px 5px;
+    color: #fff;
+    margin-right: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.like_dislike_btn {
+    float: left;
+    display: flex;
+}
+.like_dislike_btn li {
+    list-style: none;
+    padding: 0 10px;
+    color: gray;
+    font-weight: bold;
+}
+.like_dislike_btn li span {
+ 
+    color: #df1f5b;
+    padding: 0 3px;
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .thumbnail_img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .thumbnail_img img{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .post_content{
+        width: 100%;
+        padding: 15px 0;
+        border-left: none;
+    }
+    
+    .post_single_box {
+        width: 100%;
+        height: auto;
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

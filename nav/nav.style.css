@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#df1f5b;
+}
+.navbar-brand img{
+    width: 50px;
+    height: auto;
+}
+.navbar {
+    background-color: #2f0063;
+}
+.navbar-toggler-icon {
+    color: #fff;
+}
+a.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar ul li  {
+    padding: 0 4px;
+}
+.navbar ul li a {
+    color: #be9aff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.btn-outline-dark {
+    color: #fff;
+    background-color: #6224d4 !important;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.nav-link i {
+    color: #df1f5b;
+}
+input.form-control.mr-sm-2 {
+    background: #3b157f;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}

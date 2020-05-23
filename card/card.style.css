@@ -1,0 +1,104 @@
+#card_section{
+    background-color:#2a0865;
+    padding: 70px 0;
+}
+.card {
+    border: none;
+    transition: 0.5s;
+    user-select: none;
+    margin-bottom: 20px;
+}
+
+
+.card-body{
+    padding: 25px 0 !important;
+    background-color: #320b77;
+}
+.card-text{
+    font-size: 16px;
+    padding: 10px 25px;
+}
+
+a.card_btn {
+    background-color: #2a0865;
+    padding: 6px 15px;
+    color: #444142;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+h4.card-title{
+    color: rgb(243, 33, 198);
+}
+.card:hover a.card_btn{
+    color: #ff2683;
+    cursor: pointer;
+}
+
+.overflow img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.abs h1 {
+    color: #803aff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 40px;
+}
+
+.overflow{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.overflow::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background-color: #803aff96;
+    transition: 0.5s;
+}
+.overflow::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-color: #803aff96;
+    transition: 0.5s;
+}
+
+ 
+.card:hover .overflow::before{
+    left: -50%;
+}
+.card:hover .overflow::after{
+    right: -50%;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

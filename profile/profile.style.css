@@ -1,0 +1,45 @@
+
+.profile_heading h1 {
+    text-transform: uppercase;
+    color: #fff;
+    background: black;
+    font-size: 45px;
+    font-weight: bold;
+  
+  }
+  
+  .profile_box {
+    color: #fff;
+    text-align: center;
+    background: #3e3e3e;
+    width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+  }
+  .skills ul li {
+    display: inline-block;
+    padding: 3px 7px;
+    text-transform: uppercase;
+    background: gray;
+    margin: 0 2px;
+    border-radius: 10%;
+  }
+  .skills ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social_link ul li {
+    display: inline-block;
+    padding: 3px 7px;
+    text-transform: uppercase;
+    background: gray;
+    margin: 0 2px;
+    border-radius: 10%;
+  }
+  .social_link ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
